@@ -14,7 +14,7 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "https://envejecimientoexitosofrontend-production.up.railway.app",
+                "https://andr-tech-houseup.railway.app",
                 "http://localhost:5173",
                 "http://localhost:3000"
         ));
