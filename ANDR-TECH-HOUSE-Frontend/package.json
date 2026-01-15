@@ -6,10 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "start": "serve -s dist",
-    "serve": "vite preview"
+    "serve": "node ./node_modules/vite/bin/vite.js preview"
   },
   "keywords": [],
   "author": "",
