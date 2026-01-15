@@ -34,12 +34,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(allowedOrigins);
-
-        config.setAllowedOrigins(List.of(
-                "https://andr-tech-houseup.railway.app",
-                "http://localhost:5173",
-                "http://localhost:3000"
-        ));
+        
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
